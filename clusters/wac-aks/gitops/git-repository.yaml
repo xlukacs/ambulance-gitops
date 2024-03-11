@@ -11,5 +11,5 @@ spec:
  url: https://github.com/xlukacs/ambulance-gitops
 
 # ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
- secretRef:
-    name: lbm-repository-pat
+#  secretRef:
+#     name: lbm-repository-pat
