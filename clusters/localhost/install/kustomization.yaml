@@ -10,7 +10,7 @@ commonLabels:
 
 resources:
 - ../../../apps/lbm-ambulance-ufe
- - ../../../apps/lbm-ambulance-webapi
+- ../../../apps/lbm-ambulance-webapi
 
 components:
 - ../../../components/version-developers
