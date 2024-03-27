@@ -6,3 +6,4 @@ metadata:
 spec:
   image: madrent/ambulance-ufe
   interval: 1m0s
+  
