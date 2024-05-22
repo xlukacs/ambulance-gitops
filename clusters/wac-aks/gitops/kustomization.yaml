@@ -3,7 +3,7 @@ kind: Kustomization
 
 commonLabels:
      app.kubernetes.io/part-of: wac-hospital
-     app.kubernetes.io/name: lbm-ambulance-wl
+     app.kubernetes.io/name: lbm-jm-ambulance-wl
 
 namespace: wac-hospital
 

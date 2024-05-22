@@ -3,7 +3,7 @@ kind: Kustomization
 
 
 commonLabels:
- app.kubernetes.io/name: lbm-apps
+ app.kubernetes.io/name: lbm-jm-apps
  app.kubernetes.io/instance: release
  app.kubernetes.io/version: "1.0.0"
 
