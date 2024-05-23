@@ -8,4 +8,4 @@ resources:                  # zoznam manifestov - objektov,
 - webcomponent.yaml
 
 commonLabels:               # značky priradené všetkým objektom tejt aplikácie
-  app.kubernetes.io/component: lbm-ambulance-ufe
+  app.kubernetes.io/component: lbmjm-ambulance-ufe

@@ -11,13 +11,13 @@ replacements:
          group: fe.milung.eu
          version: v1
          kind: WebComponent
-         name: lbm-jm-ambulance-ufe
+         name: lbmjm-ambulance-ufe
      fieldPaths:
          - spec.hash-suffix
    source:
      version: v1
      kind: Deployment
-     name:  lbm-jm-ambulance-ufe-deployment
+     name:  lbmjm-ambulance-ufe-deployment
      fieldPath: spec.template.spec.containers.0.image
      options:
          delimiter: ':'

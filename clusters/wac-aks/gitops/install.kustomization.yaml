@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
- name: lbm-jm-install  # v spoločnom klastri je nasadených viacero takýchto objektov
+ name: lbmjm-install  # v spoločnom klastri je nasadených viacero takýchto objektov
  namespace: wac-hospital
 spec:
  wait: true
@@ -10,4 +10,4 @@ spec:
  prune: true
  sourceRef:
      kind: GitRepository
-     name: lbm-jm-gitops-repo
+     name: lbmjm-gitops-repo
