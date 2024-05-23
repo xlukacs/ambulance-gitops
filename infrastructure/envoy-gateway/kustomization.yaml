@@ -12,4 +12,4 @@ configMapGenerator:
     namespace: envoy-gateway-system
     behavior: replace
     files:
-      - params/envoy-gateway.yamls
+      - params/envoy-gateway.yaml
