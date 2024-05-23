@@ -12,6 +12,7 @@ resources:
 - ../../../apps/lbm-ambulance-ufe
 - ../../../apps/lbmjm-ambulance-webapi
 - ../../../apps/mongo-express
+- ../../../apps/http-echo
 
 components:
 - ../../../components/version-developers
