@@ -45,14 +45,12 @@ user_role[ "admin" ] {
 
 # these are admin users
 user_role[ "admin" ] {
-    user.email == "madrent63@gmail.com" ||
-    user.email == "xjavorkam@stuba.sk" 
+    user.email == "madrent63@gmail.com"
 }
 
 # these are users with access to monitoring actions
 user_role[ "monitoring" ] {
-    user.email == "madrent63@gmail.com" ||
-    user.email == "xjavorkam@stuba.sk" 
+    user.email == "madrent63@gmail.com"
 }
 
 ## TODO place emjay email here -- 2 times
