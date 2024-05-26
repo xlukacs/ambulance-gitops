@@ -7,7 +7,7 @@ spec:
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: lbm-ambulance-wl-app     # element, ktorý bude vložený na stránku
+    - element: jm-lbm-comp1     # element, ktorý bude vložený na stránku
                                         # pri navigácii na zoznam čakajúcich
       path: lbmjm-ambulance-wl            # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Zoznam čakajúcich lbmjm      # názov mikro aplikácie
@@ -17,6 +17,8 @@ spec:
         value: /lbmjm-api
       - name: ambulance-id
         value: bobulova
+      - name: base-path
+        value: /lbmjm-ambulance-wl
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
                                     # musí byť táto hodnota nastavená na true
