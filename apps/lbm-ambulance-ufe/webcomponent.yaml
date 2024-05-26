@@ -17,8 +17,8 @@ spec:
         value: /lbmjm-api
       - name: ambulance-id
         value: bobulova
-      - name: base-path
-        value: /lbmjm-ambulance-wl
+      # - name: base-path
+      #   value: /lbmjm-ambulance-wl
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
                                     # musí byť táto hodnota nastavená na true
