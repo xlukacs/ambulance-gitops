@@ -3,10 +3,10 @@ kind: Component
 images:
 - name: madrent/ambulance-ufe
   newName: madrent/ambulance-ufe
-  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.2.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: madrent/ambulance-wl-webapi
   newName: madrent/ambulance-wl-webapi
-  newTag: 1.1.0
+  newTag: 1.2.0
 
 replacements:
  - targets:
